@@ -10,11 +10,11 @@ Action signature
 void verify(const vector<std::string>& proof, const vector<std::uint8_t>& positions, std::string root, std::string leaf)
 ```
 
-Requires parameters
-- proof - array of proofs in hex
-- positions - array of proof positions (0 = left, 1 = right)
-- root - merkle root in hex
-- leaf - leaf in hex
+Required parameters
+- **proof** - array of proofs in hex
+- **positions** - array of proof positions (0 = left, 1 = right)
+- **root** - merkle root in hex
+- **leaf** - leaf in hex
 
 ## Example
 
